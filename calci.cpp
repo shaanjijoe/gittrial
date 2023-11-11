@@ -21,5 +21,7 @@ int divi(int a,int b)
 int main()
 {
     cout<<"Main Function"<<endl;
+    cin>>a>>b;
+    cout<<add(a,b);
     return 0;
 }
