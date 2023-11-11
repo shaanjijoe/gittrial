@@ -1,5 +1,11 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+
+int sub(int a, int b)
+{
+    return a-b;
+}
+
 int add (int a,int b)
 {
     return a+b;
@@ -14,5 +20,6 @@ int divi(int a,int b)
 }
 int main()
 {
+    cout<<"Main Function"<<endl;
     return 0;
 }
